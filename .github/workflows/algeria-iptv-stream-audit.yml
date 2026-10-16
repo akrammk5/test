@@ -53,6 +53,11 @@ jobs:
           
           PY
 
+      - name: Install ffprobe
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
       - name: Inspect video codec with ffprobe
         shell: bash
         run: |
