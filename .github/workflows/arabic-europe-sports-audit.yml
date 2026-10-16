@@ -1,0 +1,46 @@
+name: Curated Arabic Europe Sports IPTV Audit
+on:
+  push:
+    paths:
+      - ".github/workflows/arabic-europe-sports-audit.yml"
+      - "iptv/curated_arabic_europe_sports_candidates.json"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFprobe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Check actual video tracks
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,json,subprocess,os,urllib.request,urllib.parse,time
+          with open("iptv/curated_arabic_europe_sports_candidates.json",encoding="utf-8") as f: channels=json.load(f)
+          def check(item):
+              url=item["url"]
+              result=dict(name=item["name"],group=item["group"],country=item["country"])
+              try:
+                  run=subprocess.run(["ffprobe","-v","error","-user_agent","Mozilla/5.0 (compatible; VLC/3.0)","-rw_timeout","12000000","-analyzeduration","2500000","-probesize","700000","-show_entries","stream=codec_type,codec_name,width,height","-of","json",url],capture_output=True,text=True,timeout=22)
+                  j=json.loads(run.stdout or "{}")
+                  video=[s for s in j.get("streams",[]) if s.get("codec_type")=="video"]
+                  if video:
+                      s=max(video,key=lambda x:x.get("width",0)*x.get("height",0))
+                      result.update(status="PASS_VIDEO",codec=s.get("codec_name"),resolution=str(s.get("width","?"))+"x"+str(s.get("height","?")))
+                  else:
+                      result.update(status="FAIL_NO_VIDEO",error=run.stderr[:160])
+              except Exception as e:
+                  result.update(status="ERROR",error=str(e)[:180])
+              return result
+          with concurrent.futures.ThreadPoolExecutor(max_workers=10) as pool:
+              results=list(pool.map(check,channels))
+          for r in results: print("IPTV_CHECK "+json.dumps(r,ensure_ascii=False),flush=True)
+          print("IPTV_SUMMARY "+json.dumps({"total":len(results),"passed":sum(r["status"]=="PASS_VIDEO" for r in results),"failed":sum(r["status"]!="PASS_VIDEO" for r in results)},ensure_ascii=False))
+          
+          PY
