@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="France 24 français" tvg-language="fr" group-title="Télévision française",France 24 français
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="Euronews français" tvg-language="fr" group-title="Télévision française",Euronews français
+https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
+#EXTINF:-1 tvg-name="BFM TV" tvg-language="fr" group-title="Télévision française",BFM TV
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-name="BFM 2" tvg-language="fr" group-title="Télévision française",BFM 2
+https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
+#EXTINF:-1 tvg-name="BFM Business" tvg-language="fr" group-title="Télévision française",BFM Business
+https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-name="BFM Lyon" tvg-language="fr" group-title="Télévision française",BFM Lyon
+https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-name="20 Minutes TV" tvg-language="fr" group-title="Télévision française",20 Minutes TV
+https://live-20minutestv.digiteka.com/1961167769/index.m3u8
+#EXTINF:-1 tvg-name="Africa 24 français" tvg-language="fr" group-title="Télévision française",Africa 24 français
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
+#EXTINF:-1 tvg-name="Africanews français" tvg-language="fr" group-title="Télévision française",Africanews français
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+#EXTINF:-1 tvg-name="TV5MONDE Europe" tvg-language="fr" group-title="Télévision française",TV5MONDE Europe
+https://ert-ucdn.broadpeak-aas.com/bpk-tv/TV5/default/index.m3u8
+#EXTINF:-1 tvg-name="Le Figaro TV" tvg-language="fr" group-title="Télévision française",Le Figaro TV
+https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
+#EXTINF:-1 tvg-name="Canal Alpha Jura" tvg-language="fr" group-title="Télévision française",Canal Alpha Jura
+https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8
+#EXTINF:-1 tvg-name="Canal Alpha Neuchâtel" tvg-language="fr" group-title="Télévision française",Canal Alpha Neuchâtel
+https://canalalpha.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8
+#EXTINF:-1 tvg-name="Francophonie24" tvg-language="fr" group-title="Télévision française",Francophonie24
+https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="TV5MONDE Chefs" tvg-language="fr" group-title="Télévision française",TV5MONDE Chefs
+https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
