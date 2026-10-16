@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Asharq Documentary" tvg-language="ar" group-title="01 Arabe",Asharq Documentary
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-name="Asharq Discovery" tvg-language="ar" group-title="01 Arabe",Asharq Discovery
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-name="Documentary+ International" tvg-language="en" group-title="03 English",Documentary+ International
+https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-name="Documentary+" tvg-language="en" group-title="03 English",Documentary+
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-name="Terra Mater WILD English" tvg-language="en" group-title="03 English",Terra Mater WILD English
+https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8
+#EXTINF:-1 tvg-name="Adventure Earth" tvg-language="en" group-title="03 English",Adventure Earth
+https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Autentic History" tvg-language="en" group-title="03 English",Autentic History
+https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
+#EXTINF:-1 tvg-name="Autentic Travel" tvg-language="en" group-title="03 English",Autentic Travel
+https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
+#EXTINF:-1 tvg-name="Space Live" tvg-language="en" group-title="03 English",Space Live
+https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-name="Canal Savoir (Québec)" tvg-language="fr" group-title="02 Français",Canal Savoir (Québec)
+https://hls.savoir.media/live/stream.m3u8
+#EXTINF:-1 tvg-name="TV5MONDE Chefs" tvg-language="fr" group-title="02 Français",TV5MONDE Chefs
+https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
+#EXTINF:-1 tvg-name="Classic Arts Showcase" tvg-language="en" group-title="03 English",Classic Arts Showcase
+https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
+#EXTINF:-1 tvg-name="TVS Travel Network" tvg-language="en" group-title="03 English",TVS Travel Network
+https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8
+#EXTINF:-1 tvg-name="Better Life Nature" tvg-language="en" group-title="03 English",Better Life Nature
+https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
