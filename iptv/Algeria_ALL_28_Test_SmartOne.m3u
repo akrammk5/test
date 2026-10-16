@@ -1,57 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="AL24 News" tvg-country="DZ" tvg-language="Arabic" group-title="1 - Broadcaster origin",AL24 News
+#EXTINF:-1 tvg-id="AL24News.dz@SD" tvg-name="AL24 News" tvg-country="DZ" group-title="Algeria - broadcaster-origin candidate",AL24 News
 https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
-#EXTINF:-1 tvg-name="El Heddaf TV" tvg-country="DZ" tvg-language="Arabic" group-title="1 - Broadcaster origin",El Heddaf TV
+#EXTINF:-1 tvg-id="ElHeddafTV.dz@SD" tvg-name="El Heddaf TV" tvg-country="DZ" group-title="Algeria - broadcaster-origin candidate",El Heddaf TV
 https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
-#EXTINF:-1 tvg-name="Echorouk TV" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",Echorouk TV
-https://live20.bozztv.com/gin-36bay3/ga-echorouktv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Echorouk News" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",Echorouk News
-https://live20.bozztv.com/gin-36bay3/ga-echorouknews/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Ennahar TV" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",Ennahar TV
-https://live20.bozztv.com/gin-36bay3/ga-ennahartv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="El Bilad TV" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",El Bilad TV
-https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120682/elbiladtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Amou Yazid TV" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",Amou Yazid TV
+#EXTINF:-1 tvg-id="AmouYazidTV.dz@SD" tvg-name="Amou Yazid TV" tvg-country="DZ" group-title="Algeria - community-listed / unverified",Amou Yazid TV
 http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8
-#EXTINF:-1 tvg-name="CNA - Chaine Nord Africaine" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",CNA - Chaine Nord Africaine
+#EXTINF:-1 tvg-id="CNA.dz@SD" tvg-name="CNA" tvg-country="DZ" group-title="Algeria - community-listed / unverified",CNA - Chaine Nord Africaine
 https://live.creacast.com/cna/stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Elwatania TV" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",Elwatania TV
+#EXTINF:-1 tvg-id="ElwataniaTV.dz@SD" tvg-name="Elwatania TV" tvg-country="DZ" group-title="Algeria - community-listed / unverified",Elwatania TV
 https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8
-#EXTINF:-1 tvg-name="TV2 Algeria" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",TV2 Algeria
+#EXTINF:-1 tvg-id="TV2.dz@SD" tvg-name="TV2 Algeria" tvg-country="DZ" group-title="Algeria - community-listed / unverified",TV2 Algeria
 http://185.9.2.18/chid_347/index.m3u8
-#EXTINF:-1 tvg-name="4Kids TV" tvg-country="DZ" tvg-language="Arabic" group-title="2 - Community candidate",4Kids TV
-http://tvsen5.aynascope.net/4KidsTV/index.m3u8
-#EXTINF:-1 tvg-name="Samira TV" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Samira TV
-https://cdn02.hta.dz/abr_htatv/SamiraTV/htatv/SamiraTV_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="El Hayat TV" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",El Hayat TV
-https://cdn02.hta.dz/abr_htatv/EL_HAYAT_TV_ALGERIE/htatv/EL_HAYAT_TV_ALGERIE_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="Algerie 1 - ENTV" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Algerie 1 - ENTV
-https://cdn02.hta.dz/abr_htatv/PROGRAMME_NATIONAL/htatv/PROGRAMME_NATIONAL_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="Canal Algerie" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Canal Algerie
-https://cdn02.hta.dz/abr_htatv/CANAL_ALGERIE/htatv/CANAL_ALGERIE_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="Algerie 3 - A3 News" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Algerie 3 - A3 News
-https://cdn02.hta.dz/abr_htatv/A3_HD/htatv/A3_HD_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="TV4 Tamazight" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",TV4 Tamazight
-https://cdn02.hta.dz/abr_htatv/TV_4/htatv/TV_4_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="TV5 Quran" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",TV5 Quran
-https://cdn02.hta.dz/abr_htatv/TV_5/htatv/TV_5_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="Algerie 6" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Algerie 6
-https://cdn02.hta.dz/abr_htatv/TV_6_HD/htatv/TV_6_HD_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="TV7 El Maarifa" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",TV7 El Maarifa
-https://cdn02.hta.dz/abr_htatv/TV7_ELMAARIFA/htatv/TV7_ELMAARIFA_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="TV8 Edhakira" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",TV8 Edhakira
-https://cdn02.hta.dz/abr_htatv/TV8_EDHAKIRA/htatv/TV8_EDHAKIRA_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="Beur TV" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Beur TV
-https://cdn02.hta.dz/abr_htatv/Beur_TV/htatv/Beur_TV_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="El Djazairia One" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",El Djazairia One
-https://cdn02.hta.dz/abr_htatv/EL_DJAZAIRIA_TV/htatv/EL_DJAZAIRIA_TV_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="Bahia TV Oran" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Bahia TV Oran
-https://cdn02.hta.dz/abr_htatv/Bahia_TV/htatv/Bahia_TV_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="Lina TV" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",Lina TV
-https://cdn02.hta.dz/abr_htatv/Lina_TV/htatv/Lina_TV_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="El Aniss" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",El Aniss
-https://cdn02.hta.dz/abr_htatv/El_Fhama_TV/htatv/El_Fhama_TV_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="El Djazair N1" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",El Djazair N1
-https://cdn02.hta.dz/abr_htatv/El_Djazair_N1/htatv/El_Djazair_N1_720p/chunks.m3u8
-#EXTINF:-1 tvg-name="El Fadjr TV SBA" tvg-country="DZ" tvg-language="Arabic" group-title="3 - ARCHIVE 2021 / likely broken",El Fadjr TV SBA
-https://cdn02.hta.dz/abr_htatv/EL_FADJR_TV_DZ/htatv/EL_FADJR_TV_DZ_720p/chunks.m3u8
