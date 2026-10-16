@@ -9,36 +9,39 @@ permissions:
 jobs:
   epg:
     runs-on: ubuntu-latest
-    timeout-minutes: 9
+    timeout-minutes: 8
     steps:
-      - name: Check XMLTV URLs and channel IDs
+      - uses: actions/checkout@v4
+      - name: Find matching XMLTV channel identifiers
         shell: bash
         run: |
           python3 - <<'PY'
-          import urllib.request,gzip,xml.etree.ElementTree as ET,json,re
-          urls=["https://epg.pw/xmltv/epg_lite.xml.gz","https://epg.pw/xmltv/epg.xml.gz"]
-          targets=["Al Jazeera","Al Arabiya","France 24","Euronews","DW Arabic","CBS Sports","MBC","FIFA","Qatar TV"]
-          def norm(s): return re.sub(r'[^a-z0-9]+','',s.lower())
-          for url in urls:
-           print("GUIDE_PROBE",url,flush=True)
-           try:
-            r=urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=35)
-            print("GUIDE_RESPONSE",r.status,"CONTENT_LENGTH",r.headers.get("Content-Length"),flush=True)
-            g=gzip.GzipFile(fileobj=r)
-            channels=[]
-            for _,node in ET.iterparse(g,events=("end",)):
-             t=node.tag.rsplit("}",1)[-1]
-             if t=="channel":
-              id=node.get("id","")
-              names=[n.text for n in node.findall("display-name") if n.text]
-              channels.append([id,names[:2]])
-              node.clear()
-             elif t=="programme":break
-            print("GUIDE_CHANNEL_COUNT",len(channels),flush=True)
-            for word in targets:
-             found=[a for a in channels if norm(word) in norm(a[0]) or any(norm(word) in norm(n) for n in a[1])]
-             print("GUIDE_MATCH",json.dumps({"guide":url,"query":word,"found":found[:8],"count":len(found)},ensure_ascii=False),flush=True)
-           except Exception as e:
-            print("GUIDE_ERROR",url,repr(e),flush=True)
+          import urllib.request,gzip,xml.etree.ElementTree as ET,json,re,difflib
+          with open("iptv/Arabic_Europe_Sports_CLEAN.m3u",encoding="utf-8") as f: rows=f.read().splitlines()
+          names=[v.rsplit(",",1)[-1] for v in rows if v.startswith("#EXTINF")]
+          def n(x):return re.sub(r"[^a-z0-9]+","",x.lower())
+          r=urllib.request.urlopen("https://epg.pw/xmltv/epg.xml.gz",timeout=50)
+          g=gzip.GzipFile(fileobj=r)
+          channels=[]
+          for _,node in ET.iterparse(g,events=("end",)):
+           t=node.tag.rsplit("}",1)[-1]
+           if t=="channel":
+            cid=node.get("id","")
+            ns=[v.text.strip() for v in node.findall("display-name") if v.text]
+            channels.append([cid,ns])
+            node.clear()
+           elif t=="programme":break
+          print("EPG_IDS_TOTAL",len(channels),flush=True)
+          for q in names:
+           needle=n(q)
+           exact=[]
+           near=[]
+           for cid,ns in channels:
+            for s in ns:
+             k=n(s)
+             if k==needle:exact.append([cid,s])
+             elif len(needle)>=6 and (needle in k or k in needle or difflib.SequenceMatcher(None,needle,k).ratio()>.86) and abs(len(needle)-len(k))<=8:near.append([cid,s])
+            if len(near)>100:near=near[:50]
+           print("EPG_CHANNEL_MAP",json.dumps({"name":q,"exact":exact[:10],"near":near[:6]},ensure_ascii=False),flush=True)
           
           PY
