@@ -1,27 +1,32 @@
-# Algeria SmartOne playlist - audit, 17 October 2026
+# Algerian SmartOne IPTV test results (2026-10-17)
 
-This M3U URL was originally a 28-entry experiment with **17 entries from a 2021 archive**. Many did not play on the user's Samsung Q8F. The unreliable entries have been removed from the primary playlist.
+This page documents the test performed from a GitHub Actions runner in the United States, not from a Samsung SmartOne TV in Poland.
 
-Main playlist (6 unique candidates):
+## Current user playlist: 5 stream candidates that delivered H.264 video
+
+Keep this URL in SmartOne:
 https://raw.githubusercontent.com/akrammk5/test/main/iptv/Algeria_ALL_28_Test_SmartOne.m3u
 
-The file name is unchanged so the existing SmartOne account can still access it after reloading, but the content is now **6 entries, not 28**. None of the six have been independently playback-tested from Poland. Presence in an upstream directory is not proof that a stream is alive or licensed. Current upstream catalog:
-https://github.com/iptv-org/iptv/blob/master/streams/dz.m3u
+Despite the historical filename (28), the file now has **five entries**:
+- AL24 News — HLS media bytes received; ffprobe identified H.264 video.
+- El Heddaf TV — HLS media bytes received; ffprobe identified H.264 video.
+- Amou Yazid TV — HLS media bytes received; ffprobe identified H.264 video.
+- TV2 Algeria — ffprobe identified H.264 video, but the separate HLS media test intermittently returned 404; reliability is uncertain.
+- StoryChannel TV — HLS media bytes received; ffprobe identified H.264 video.
 
-Two publisher-origin candidates: AL24 News and El Heddaf TV.
-Four community-listed but unverified candidates: Amou Yazid TV, CNA, Elwatania TV, TV2.
+Evidence:
+- Media checks: https://github.com/akrammk5/test/actions/runs/38981923626
+- Codec check: https://github.com/akrammk5/test/actions/runs/38982061560
 
-Excluded: old CDN archive streams, non-HLS TV4 endpoint, duplicate CNA entry, and unrelated Egypt Nile Drama entry.
-Echorouk TV, Echorouk News, Ennahar TV, Samira TV, El Bilad TV and El Hayat TV are *not* included in the cleaned playlist because their broadcaster-authorized working direct M3U endpoints could not be verified. Those broadcasters may have official website video players.
+## Excluded from current playlist
 
-The old 28-entry file remains available only for reference:
+- Echorouk TV, Echorouk News, Ennahar TV and El Bilad TV: tested third-party stream candidates returned HTTP 403.
+- CNA and its alternate: HTTP 403.
+- Elwatania TV: timed out or failed SSL hostname verification.
+
+The above failures are results for specific URLs tested from the US, not proof that those broadcasters' official websites are unavailable everywhere.
+
+Older unverified 28-entry playlist archived:
 https://github.com/akrammk5/test/blob/main/iptv/archive/Algeria_28_UNVERIFIED_ARCHIVE.m3u
 
-Separate automatically health-scanned **third-party** option (not personally verified for every stream):
-https://dearbulut.github.io/iptv/playlists/country/dz.m3u
-
-Notes:
-- A successful HTTP connection to a playlist URL does not prove each HLS video actually plays.
-- Some sources may be geo-blocked, fail on SmartOne, use HTTP (not HTTPS), or disappear without notice.
-- SmartOne may cache a playlist; reload the account, or restart the app to refresh.
-- Do not represent this playlist as guaranteed working, 24/7, or broadcaster-authorized.
+This technical test confirms media/codec retrieval **only**. It is not legal-rights verification, continuous uptime monitoring, or a guarantee of playback on Samsung SmartOne in Poland. Individual sources may be geoblocked or break later; check publisher permissions for each stream.
