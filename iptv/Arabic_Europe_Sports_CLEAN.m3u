@@ -1,0 +1,105 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="AL24 News" tvg-country="DZ" group-title="Arabic TV" tvg-id="",AL24 News
+https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8
+#EXTINF:-1 tvg-name="Al Jazeera Arabic" tvg-country="QA" group-title="Arabic TV" tvg-id="",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-name="Al Jazeera Mubasher" tvg-country="QA" group-title="Arabic TV" tvg-id="",Al Jazeera Mubasher
+https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
+#EXTINF:-1 tvg-name="Al Jazeera English" tvg-country="QA" group-title="Arabic TV" tvg-id="",Al Jazeera English
+https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-name="Al Araby TV" tvg-country="QA" group-title="Arabic TV" tvg-id="",Al Araby TV
+https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
+#EXTINF:-1 tvg-name="Al Araby TV 2" tvg-country="QA" group-title="Arabic TV" tvg-id="",Al Araby TV 2
+https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Al Arabiya" tvg-country="AE" group-title="Arabic TV" tvg-id="",Al Arabiya
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Al Hadath" tvg-country="SA" group-title="Arabic TV" tvg-id="",Al Hadath
+https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Sky News Arabia" tvg-country="AE" group-title="Arabic TV" tvg-id="",Sky News Arabia
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+#EXTINF:-1 tvg-name="Asharq News" tvg-country="SA" group-title="Arabic TV" tvg-id="",Asharq News
+https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-name="Asharq Documentary" tvg-country="SA" group-title="Arabic TV" tvg-id="",Asharq Documentary
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-name="Asharq Discovery" tvg-country="SA" group-title="Arabic TV" tvg-id="",Asharq Discovery
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-name="CNBC Arabia" tvg-country="AE" group-title="Arabic TV" tvg-id="",CNBC Arabia
+https://cnbc-live.akamaized.net/cnbc/master.m3u8
+#EXTINF:-1 tvg-name="Qatar TV" tvg-country="QA" group-title="Arabic TV" tvg-id="",Qatar TV
+https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
+#EXTINF:-1 tvg-name="Sharjah TV" tvg-country="AE" group-title="Arabic TV" tvg-id="",Sharjah TV
+https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Saudi TV" tvg-country="SA" group-title="Arabic TV" tvg-id="",Saudi TV
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
+#EXTINF:-1 tvg-name="SBC" tvg-country="SA" group-title="Arabic TV" tvg-id="",SBC
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
+#EXTINF:-1 tvg-name="MBC 1" tvg-country="AE" group-title="Arabic TV" tvg-id="",MBC 1
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
+#EXTINF:-1 tvg-name="MBC 4" tvg-country="AE" group-title="Arabic TV" tvg-id="",MBC 4
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
+#EXTINF:-1 tvg-name="MBC Drama" tvg-country="AE" group-title="Arabic TV" tvg-id="",MBC Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
+#EXTINF:-1 tvg-name="France 24 Arabic" tvg-country="FR" group-title="Arabic TV" tvg-id="",France 24 Arabic
+https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="DW Arabic" tvg-country="DE" group-title="Arabic TV" tvg-id="",DW Arabic
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
+#EXTINF:-1 tvg-name="Al Ghad TV" tvg-country="EG" group-title="Arabic TV" tvg-id="",Al Ghad TV
+https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
+#EXTINF:-1 tvg-name="France 24 French" tvg-country="FR" group-title="European TV" tvg-id="",France 24 French
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="France 24 English" tvg-country="FR" group-title="European TV" tvg-id="",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="Euronews French" tvg-country="FR" group-title="European TV" tvg-id="",Euronews French
+https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
+#EXTINF:-1 tvg-name="Euronews English" tvg-country="FR" group-title="European TV" tvg-id="",Euronews English
+https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
+#EXTINF:-1 tvg-name="DW English" tvg-country="DE" group-title="European TV" tvg-id="",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+#EXTINF:-1 tvg-name="Tagesschau 24" tvg-country="DE" group-title="European TV" tvg-id="",Tagesschau 24
+https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-name="Das Erste (ARD)" tvg-country="DE" group-title="European TV" tvg-id="",Das Erste (ARD)
+https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
+#EXTINF:-1 tvg-name="Canal 24 Horas (RTVE)" tvg-country="ES" group-title="European TV" tvg-id="",Canal 24 Horas (RTVE)
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+#EXTINF:-1 tvg-name="TV5MONDE Chefs" tvg-country="FR" group-title="European TV" tvg-id="",TV5MONDE Chefs
+https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
+#EXTINF:-1 tvg-name="Africanews French" tvg-country="FR" group-title="European TV" tvg-id="",Africanews French
+https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
+#EXTINF:-1 tvg-name="Euronews Poland" tvg-country="PL" group-title="European TV" tvg-id="",Euronews Poland
+https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
+#EXTINF:-1 tvg-name="El Heddaf TV" tvg-country="DZ" group-title="Free Sports" tvg-id="",El Heddaf TV
+https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
+#EXTINF:-1 tvg-name="Africa 24 Sport" tvg-country="FR" group-title="Free Sports" tvg-id="",Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS XTRA (free channel)" tvg-country="US" group-title="Free Sports" tvg-id="",beIN SPORTS XTRA (free channel)
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="FIFA+ English" tvg-country="UK" group-title="Free Sports" tvg-id="",FIFA+ English
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-name="FIFA+ French" tvg-country="UK" group-title="Free Sports" tvg-id="",FIFA+ French
+https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-name="FIFA+ Women" tvg-country="UK" group-title="Free Sports" tvg-id="",FIFA+ Women
+https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-name="CBS Sports Golazo" tvg-country="US" group-title="Free Sports" tvg-id="",CBS Sports Golazo
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 tvg-name="NBC Sports NOW" tvg-country="US" group-title="Free Sports" tvg-id="",NBC Sports NOW
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 tvg-name="Tennis Channel (FAST)" tvg-country="US" group-title="Free Sports" tvg-id="",Tennis Channel (FAST)
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 tvg-name="Sportitalia" tvg-country="IT" group-title="Free Sports" tvg-id="",Sportitalia
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-name="ACI Sport TV" tvg-country="IT" group-title="Free Sports" tvg-id="",ACI Sport TV
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+#EXTINF:-1 tvg-name="A Spor" tvg-country="TR" group-title="Free Sports" tvg-id="",A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 tvg-name="HT Spor" tvg-country="TR" group-title="Free Sports" tvg-id="",HT Spor
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-name="Bahrain Sports 1" tvg-country="BH" group-title="Free Sports" tvg-id="",Bahrain Sports 1
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+#EXTINF:-1 tvg-name="Bahrain Sports 2" tvg-country="BH" group-title="Free Sports" tvg-id="",Bahrain Sports 2
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
+#EXTINF:-1 tvg-name="More Than Sports TV" tvg-country="DE" group-title="Free Sports" tvg-id="",More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-name="Real Madrid TV" tvg-country="ES" group-title="Free Sports" tvg-id="",Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
+#EXTINF:-1 tvg-name="talkSPORT TV" tvg-country="UK" group-title="Free Sports" tvg-id="",talkSPORT TV
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
