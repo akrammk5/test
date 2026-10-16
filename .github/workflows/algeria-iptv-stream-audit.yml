@@ -52,3 +52,22 @@ jobs:
            for r in ex.map(ck,D.items()): print(json.dumps(r),flush=True)
           
           PY
+
+      - name: Inspect video codec with ffprobe
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,subprocess,json
+          items=[["AL24 News","https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8"],["El Heddaf TV","https://live.elheddaftv.com:8081/elheddaftv/index.m3u8"],["Amou Yazid TV","http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8"],["TV2 Algeria","http://185.9.2.18/chid_347/index.m3u8"],["StoryChannel TV","https://136044159.r.cdnsun.net/storychannel.m3u8"]]
+          def run(x):
+           name,url=x
+           try:
+            p=subprocess.run(['ffprobe','-v','error','-user_agent','VLC/3.0.20','-rw_timeout','12000000','-analyzeduration','3500000','-probesize','1000000','-show_entries','stream=codec_type,codec_name','-of','json',url],capture_output=True,text=True,timeout=22)
+            j=json.loads(p.stdout or '{}')
+            videos=[z for z in j.get('streams',[]) if z.get('codec_type')=='video']
+            return {'name':name,'status':'VIDEO_CODEC_CONFIRMED' if videos else 'NO_VIDEO_CONFIRMED','video_codecs':[v.get('codec_name') for v in videos], 'error':p.stderr[:100]}
+           except Exception as e:return {'name':name,'status':'ERROR','detail':str(e)[:120]}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+           for res in executor.map(run,items):print(json.dumps(res),flush=True)
+          
+          PY
