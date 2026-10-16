@@ -1,0 +1,54 @@
+name: Algerian IPTV Stream Audit
+on:
+  push:
+    paths:
+      - '.github/workflows/algeria-iptv-stream-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Check HLS manifest and first media segment
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,urllib.request,urllib.parse,json
+          D={
+          'AL24 News':'https://cdn.live.easybroadcast.io/abr_corp/66_al24_u4yga6h/corp/66_al24_u4yga6h_240p/chunks.m3u8',
+          'El Heddaf':'https://live.elheddaftv.com:8081/elheddaftv/index.m3u8',
+          'Amou Yazid':'http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8',
+          'CNA':'https://live.creacast.com/cna/stream/playlist.m3u8',
+          'CNA alternate':'https://live.creacast.com/cna/smil:cna.smil/playlist.m3u8',
+          'Elwatania TV':'https://livesstream.work.gd:5443/WebRTCApp/streams/stream.m3u8',
+          'TV2 Algeria':'http://185.9.2.18/chid_347/index.m3u8',
+          'StoryChannel TV':'https://136044159.r.cdnsun.net/storychannel.m3u8',
+          'Echorouk TV third-party':'https://live20.bozztv.com/gin-36bay3/ga-echorouktv/tracks-v1a1/mono.m3u8',
+          'Echorouk News third-party':'https://live20.bozztv.com/gin-36bay3/ga-echorouknews/tracks-v1a1/mono.m3u8',
+          'Ennahar third-party':'https://live20.bozztv.com/gin-36bay3/ga-ennahartv/tracks-v1a1/mono.m3u8',
+          'El Bilad third-party':'https://uvotv-aniview.global.ssl.fastly.net/hls/live/2120682/elbiladtv/playlist.m3u8'}
+          def grab(u):
+           r=urllib.request.Request(u,headers={'User-Agent':'VLC/3.0.20'})
+           with urllib.request.urlopen(r,timeout=10) as r: return r.url,r.read(4096),r.status
+          def ck(x):
+           n,u=x
+           try:
+            u,b,s=grab(u)
+            for d in range(3):
+             if not b.startswith(b'#EXTM3U'): return {'name':n,'status':'FAIL_NOT_HLS','http':s}
+             q=b.decode('utf8','replace')
+             paths=[z.strip() for z in q.splitlines() if z.strip() and not z.startswith('#')]
+             if not paths:return {'name':n,'status':'FAIL_NO_MEDIA'}
+             p=next((z for z in paths if not z.endswith('.m3u8')),paths[0])
+             u,b,s=grab(urllib.parse.urljoin(u,p))
+             if b.startswith(b'#EXTM3U'):continue
+             if len(b)>128 and s in (200,206): return {'name':n,'status':'PASS_MEDIA_BYTES','bytes':len(b)}
+             return {'name':n,'status':'FAIL_MEDIA','bytes':len(b),'http':s}
+            return {'name':n,'status':'FAIL_PLAYLIST_LOOP'}
+           except Exception as e: return {'name':n,'status':'ERROR','detail':str(e)[:120]}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as ex:
+           for r in ex.map(ck,D.items()): print(json.dumps(r),flush=True)
+          
+          PY
