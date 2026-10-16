@@ -1,0 +1,42 @@
+name: Documentaries Movies French IPTV Audit
+on:
+  push:
+    paths:
+      - '.github/workflows/triple-playlists-verify.yml'
+      - 'iptv/triple_playlists_candidates_2026.json'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFprobe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Probe real video tracks
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,json,subprocess,os
+          with open('iptv/triple_playlists_candidates_2026.json',encoding='utf-8') as f: channels=json.load(f)
+          def verify(c):
+           r={'name':c['name'],'group':c['group'],'lang':c['language']}
+           try:
+            p=subprocess.run(['ffprobe','-v','error','-user_agent','Mozilla/5.0 (compatible; VLC/3.0)','-rw_timeout','12000000','-analyzeduration','2500000','-probesize','700000','-show_entries','stream=codec_type,codec_name,width,height','-of','json',c['url']],capture_output=True,text=True,timeout=23)
+            data=json.loads(p.stdout or '{}')
+            vids=[x for x in data.get('streams',[]) if x.get('codec_type')=='video']
+            if vids:
+             v=max(vids,key=lambda x:x.get('width',0)*x.get('height',0))
+             r.update(status='VIDEO_OK',codec=v.get('codec_name'),width=v.get('width',0),height=v.get('height',0))
+            else:r.update(status='NO_VIDEO',error=p.stderr[:140])
+           except Exception as e:r.update(status='ERROR',error=str(e)[:140])
+           return r
+          with concurrent.futures.ThreadPoolExecutor(max_workers=12) as ex:
+           for r in ex.map(verify,channels):print('TRIPLE_CHECK '+json.dumps(r,ensure_ascii=False),flush=True)
+          print('TRIPLE_TOTAL',len(channels),flush=True)
+          
+          PY
