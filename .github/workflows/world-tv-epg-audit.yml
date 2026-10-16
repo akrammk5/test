@@ -1,0 +1,62 @@
+name: World TV EPG compatibility check
+on:
+  push:
+    paths:
+      - ".github/workflows/world-tv-epg-audit.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  epg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check XMLTV and available IDs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import urllib.request,gzip,xml.etree.ElementTree as ET, difflib,unicodedata,re,json
+          source="https://dearbulut.github.io/iptv/epg/guide.xml.gz"
+          req=urllib.request.Request(source,headers={"User-Agent":"Mozilla/5.0"})
+          print("EPG_SOURCE",source,flush=True)
+          try:
+           resp=urllib.request.urlopen(req,timeout=45)
+           print("EPG_HTTP",resp.status,"SIZE",resp.headers.get("Content-Length"),"TYPE",resp.headers.get("Content-Type"),flush=True)
+           z=gzip.GzipFile(fileobj=resp)
+           entries={}
+           for event,elem in ET.iterparse(z,events=("end",)):
+            tag=elem.tag.rsplit("}",1)[-1]
+            if tag=="channel":
+             cid=elem.get("id","")
+             desc=[x.text for x in elem.findall("display-name") if x.text]
+             entries[cid]=desc
+             elem.clear()
+            elif tag=="programme":
+             break
+           print("EPG_CHANNELS",len(entries),flush=True)
+           with open("iptv/Arabic_Europe_Sports_CLEAN.m3u",encoding="utf-8") as f: lines=f.read().splitlines()
+           def norm(x):
+            x=unicodedata.normalize("NFKD",x).lower()
+            x="".join(ch for ch in x if not unicodedata.combining(ch))
+            return re.sub(r"[^a-z0-9]+","",x)
+           for line in lines:
+            if not line.startswith("#EXTINF"):continue
+            name=line.rsplit(",",1)[-1]
+            cod=(re.search(r'tvg-country="([^"]+)"',line) or [None,""])[1]
+            sims=[]
+            for id,names in entries.items():
+             if not id:continue
+             root=id.split("@")[0]
+             vals=[root]+names
+             score=max(difflib.SequenceMatcher(None,norm(name),norm(v)).ratio() for v in vals)
+             if root.lower().startswith(norm(name)) or norm(name).startswith(norm(root)):score=max(score,.85)
+             if id.lower().endswith("."+cod.lower()):score+=.04
+             if score>=.62:sims.append([round(score,3),id,names[:2]])
+            sims.sort(reverse=True)
+            print("EPG_MATCH",json.dumps({"channel":name,"country":cod,"matches":sims[:3]},ensure_ascii=False),flush=True)
+          except Exception as e:
+           print("EPG_ERROR",repr(e),flush=True)
+           raise
+          
+          PY
