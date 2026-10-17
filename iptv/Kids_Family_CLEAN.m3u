@@ -1,0 +1,29 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids public broadcast" group-title="02 Kids & Family",PBS Kids public broadcast
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 tvg-id="BabySharkTV.us@SD" tvg-name="Baby Shark TV" group-title="02 Kids & Family",Baby Shark TV
+https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BabyFirst.us@US" tvg-name="BabyFirst" group-title="02 Kids & Family",BabyFirst
+https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
+#EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-name="Moonbug Kids" group-title="02 Kids & Family",Moonbug Kids
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="LegoChannel.us@SD" tvg-name="Lego Channel" group-title="02 Kids & Family",Lego Channel
+https://dltiqboxjw21d.cloudfront.net/index.m3u8
+#EXTINF:-1 tvg-id="HappyKids.us@SD" tvg-name="HappyKids" group-title="02 Kids & Family",HappyKids
+https://dil9xdvretp0f.cloudfront.net/index.m3u8
+#EXTINF:-1 tvg-id="BeJoykids.it@HD" tvg-name="BeJoy.kids" group-title="02 Kids & Family",BeJoy.kids
+https://stream.paroledivita.org/bejoy.m3u8
+#EXTINF:-1 tvg-id="PersianaJunior.fr@SD" tvg-name="Persiana Junior" tvg-language="fr" group-title="02 Kids & Family",Persiana Junior
+https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AkiliKids.ke@SD" tvg-name="Akili Kids!" group-title="02 Kids & Family",Akili Kids!
+https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="MinikaCocuk.tr@SD" tvg-name="Minika Cocuk" group-title="02 Kids & Family",Minika Cocuk
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
+#EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-name="Minika Go" group-title="02 Kids & Family",Minika Go
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
+#EXTINF:-1 tvg-id="EpicKids.in@Digital" tvg-name="Epic Kids Digital" group-title="02 Kids & Family",Epic Kids Digital
+https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
+#EXTINF:-1 tvg-id="KidsFlix.us@SD" tvg-name="KidsFlix" group-title="02 Kids & Family",KidsFlix
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
+#EXTINF:-1 tvg-id="PeppaPig.us@SD" tvg-name="Peppa Pig" group-title="02 Kids & Family",Peppa Pig
+https://jmp2.uk/plu-5d14fb6c84dd37df3b4290c5.m3u8
