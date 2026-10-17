@@ -1,0 +1,590 @@
+[
+  {
+    "group": "Quran & Education",
+    "name": "Saudi Quran TV (official global feed)",
+    "language": "Arabic",
+    "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
+    "id": "AlQuranAlKareemTV.sa@SD"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "PBS Kids public broadcast",
+    "language": "English",
+    "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+    "id": "PBSKids.us@SD"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Spacetoon Arabic",
+    "language": "Arabic",
+    "id": "SpacetoonArabic.ae@SD",
+    "url": "https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Baby Shark TV",
+    "language": "Other",
+    "id": "BabySharkTV.us@SD",
+    "url": "https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "BabyFirst",
+    "language": "Other",
+    "id": "BabyFirst.us@US",
+    "url": "https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Moonbug Kids",
+    "language": "Other",
+    "id": "MoonbugKids.uk@SD",
+    "url": "https://moonbug-rokuus.amagi.tv/playlist.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Kidoodle.TV",
+    "language": "Other",
+    "id": "KidoodleTV.ca@SD",
+    "url": "https://amg07653-apmc-amg07653c9-samsung-us-8740.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Lego Channel",
+    "language": "Other",
+    "id": "LegoChannel.us@SD",
+    "url": "https://dltiqboxjw21d.cloudfront.net/index.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "HappyKids",
+    "language": "Other",
+    "id": "HappyKids.us@SD",
+    "url": "https://dil9xdvretp0f.cloudfront.net/index.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "BBC Kids",
+    "language": "Other",
+    "id": "BBCKids.us@SD",
+    "url": "https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Cartoon Classics",
+    "language": "Other",
+    "id": "CartoonClassics.pl@FAST",
+    "url": "https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "4 Fun Kids",
+    "language": "Other",
+    "id": "4FunKids.pl@SD",
+    "url": "https://stream.4fun.tv:8889/hls/4fk_high/index.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "BeJoy.kids",
+    "language": "Other",
+    "id": "BeJoykids.it@HD",
+    "url": "https://stream.paroledivita.org/bejoy.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Persiana Junior",
+    "language": "French",
+    "id": "PersianaJunior.fr@SD",
+    "url": "https://junhls.persiana.live/hls/stream.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Akili Kids!",
+    "language": "Other",
+    "id": "AkiliKids.ke@SD",
+    "url": "https://m6.livecdn.io/akilikids.co.ke/akilikids.smil/playlist.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Minika Cocuk",
+    "language": "Other",
+    "id": "MinikaCocuk.tr@SD",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Minika Go",
+    "language": "Other",
+    "id": "MinikaGo.tr@SD",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Epic Kids Digital",
+    "language": "Other",
+    "id": "EpicKids.in@Digital",
+    "url": "https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "KidsFlix",
+    "language": "Other",
+    "id": "KidsFlix.us@SD",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "13 Kids",
+    "language": "Other",
+    "id": "13Kids.cl@SD",
+    "url": "https://origin.dpsgo.com/ssai/event/LhHrVtyeQkKZ-Ye_xEU75g/master.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Peppa Pig",
+    "language": "Other",
+    "id": "PeppaPig.us@SD",
+    "url": "https://jmp2.uk/plu-5d14fb6c84dd37df3b4290c5.m3u8"
+  },
+  {
+    "group": "Kids & Family",
+    "name": "Cartoon Network",
+    "language": "Other",
+    "id": "CartoonNetwork.in@SD",
+    "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "America's Test Kitchen",
+    "language": "Other",
+    "id": "AmericasTestKitchen.us@SD",
+    "url": "https://jmp2.uk/plu-5e84f54a82f05300080e6746.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "BBC Food",
+    "language": "Other",
+    "id": "BBCFood.us@SD",
+    "url": "https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "bon appetit",
+    "language": "Other",
+    "id": "bonappetit.us@SD",
+    "url": "https://bonappetit-samsung.amagi.tv/playlist.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Cooking Panda",
+    "language": "Other",
+    "id": "CookingPanda.us@SD",
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Gusto TV",
+    "language": "Other",
+    "id": "GustoTV.ca@SD",
+    "url": "https://e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_GustoTV/playlist.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Gordon Ramsay's Hell's Kitchen",
+    "language": "Other",
+    "id": "GordonRamsaysHellsKitchen.us@SD",
+    "url": "https://aegis-cloudfront-1.tubi.video/c8364f36-c60b-4a39-8d86-0b92db4611c0/index.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Tastemade UK",
+    "language": "Other",
+    "id": "Tastemade.us@UK",
+    "url": "https://tastemade-tdint-rakuten.amagi.tv/playlist.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Pluto TV Cuisine",
+    "language": "French",
+    "id": "PlutoTVCuisine.de@FR",
+    "url": "https://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "TV5MONDE Chefs",
+    "language": "French",
+    "id": "TV5MONDEChefs.fr@SD",
+    "url": "https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Jordan Kitchen",
+    "language": "Arabic",
+    "id": "JordanKitchen.jo@SD",
+    "url": "https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Tastemade Travel",
+    "language": "Other",
+    "id": "TastemadeTravel.us@SD",
+    "url": "https://d6ef3usc6d9cl.cloudfront.net/Tastemade_Travel.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Food Food",
+    "language": "Other",
+    "id": "FoodFood.in@SD",
+    "url": "https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8"
+  },
+  {
+    "group": "Cooking & Lifestyle",
+    "name": "Pluto TV Food GB",
+    "language": "Other",
+    "id": "PlutoTVFood.de@GB",
+    "url": "https://jmp2.uk/plu-5ddf930548ff9b00090d5686.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "30A We Love Cars",
+    "language": "Other",
+    "id": "30AWeLoveCars.us@SD",
+    "url": "https://30a-tv.com/feeds/vidaa/cars.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "Canal Motor",
+    "language": "Other",
+    "id": "CanalMotor.no@SD",
+    "url": "https://digicom.hls.iptvdc.com/canalmotor/index.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "Garage TV Latin America",
+    "language": "Other",
+    "id": "GarageTVLatinAmerica.ar@SD",
+    "url": "https://stream1.sersat.com/hls/garagetv.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "Motorvision",
+    "language": "Other",
+    "id": "Motorvision.de@SD",
+    "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "Pluto TV Cars",
+    "language": "Other",
+    "id": "PlutoTVCars.us@SD",
+    "url": "https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "Pluto TV Motor",
+    "language": "Other",
+    "id": "PlutoTVMotor.de@ES",
+    "url": "https://jmp2.uk/plu-6080345ebb49b90007ce0baf.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "City Eden AutoGid",
+    "language": "Other",
+    "id": "CityEdenAutoGid.ru@HD",
+    "url": "https://cityeden.catcast.tv/content/47515/index.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "The Design Network",
+    "language": "Other",
+    "id": "TheDesignNetwork.us@SD",
+    "url": "https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "PBS Travel",
+    "language": "Other",
+    "id": "PBSTravel.us@SD",
+    "url": "https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "BBC Travel",
+    "language": "Other",
+    "id": "BBCTravel.us@Germany",
+    "url": "https://jmp2.uk/plu-60e4519e6873180007d3cddb.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "BFM Tech & Co",
+    "language": "French",
+    "id": "BFMTechCo.fr@SD",
+    "url": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_TECHANDCO/index.m3u8?end=END&start=LIVE"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "Pluto TV Science",
+    "language": "Other",
+    "id": "PlutoTVScience.de@DACH",
+    "url": "https://jmp2.uk/plu-5d767b4889bca2ce7b73ef2e.m3u8"
+  },
+  {
+    "group": "Cars Tech Science",
+    "name": "Pluto TV Science",
+    "language": "Other",
+    "id": "PlutoTVScience.us@US",
+    "url": "https://jmp2.uk/plu-563a970aa1a1f7fe7c9daad7.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Aghani Aghani TV",
+    "language": "Arabic",
+    "id": "AghaniAghaniTV.lb@SD",
+    "url": "https://cdn.streamlane.tv/hls/aghanitv/index.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Abdulmajeed Abdullah",
+    "language": "Arabic",
+    "id": "AbdulmajeedAbdullah.sa@SD",
+    "url": "https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "MBC Mood",
+    "language": "Arabic",
+    "id": "MBCMood.sa@HD",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "4 Fun TV",
+    "language": "Other",
+    "id": "4FunTV.pl@SD",
+    "url": "https://stream.4fun.tv:8888/sd/4fun_sd_high.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "California Music Channel",
+    "language": "Other",
+    "id": "CaliforniaMusicChannel.us@SD",
+    "url": "https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Deluxe Music",
+    "language": "Other",
+    "id": "DeluxeMusic.de@SD",
+    "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Deluxe Dance",
+    "language": "Other",
+    "id": "DeluxeDance.de@SD",
+    "url": "https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Dance Television",
+    "language": "Other",
+    "id": "DanceTelevision.nl@SD",
+    "url": "https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "DanceTV Deep House District",
+    "language": "Other",
+    "id": "DanceTVDeepHouseDistrict.ee@SD",
+    "url": "https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "DanceTV EDM Mainstage",
+    "language": "Other",
+    "id": "DanceTVEDMMainstage.ee@SD",
+    "url": "https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Best of Dance TV",
+    "language": "Other",
+    "id": "BestofDanceTV.ee@SD",
+    "url": "https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "B4U Music",
+    "language": "Other",
+    "id": "B4UMusic.in@India",
+    "url": "https://amg01408-amg01408c5-amgplt0747.playout.now3.amagi.tv/b4um001/playlist.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "MagentaMusik 360",
+    "language": "Other",
+    "id": "MagentaMusik360.de@SD",
+    "url": "https://streaming.magentamusik.de/csm/573870/magentamusik1/index.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Mooz Hits",
+    "language": "Other",
+    "id": "MoozHits.ro@SD",
+    "url": "https://tvextra-hls.b-cdn.net/moozhits/moozhits.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Folx Music Television",
+    "language": "Other",
+    "id": "FolxMusicTelevision.de@SD",
+    "url": "https://folxapp.b-cdn.net/1080p/index.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Movie Music by Stingray",
+    "language": "Other",
+    "id": "MovieMusicbyStingray.ca@HD",
+    "url": "https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "30A Music",
+    "language": "Other",
+    "id": "30AMusic.us@SD",
+    "url": "https://30a-tv.com/music.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Melody FM",
+    "language": "Arabic",
+    "id": "MelodyFM.jo@SD",
+    "url": "https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "Baraza TV Relaxing",
+    "language": "Other",
+    "id": "BarazaTVRelaxing.gr@SD",
+    "url": "https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "9XM",
+    "language": "Other",
+    "id": "9XM.in@SD",
+    "url": "https://9xjio.wiseplayout.com/9XM/master.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "9X Jhakaas",
+    "language": "Other",
+    "id": "9XJhakaas.in@SD",
+    "url": "https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8"
+  },
+  {
+    "group": "Music & Entertainment",
+    "name": "7 RadioVisione",
+    "language": "Other",
+    "id": "7RadioVisione.it@HD",
+    "url": "https://stream10.xdevel.com/video1s976543-1932/stream/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Qatar TV The Holy Quran",
+    "language": "Arabic",
+    "id": "QatarTVTheHolyQuran.qa@HD",
+    "url": "https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Bahrain Quran",
+    "language": "Other",
+    "id": "BahrainQuran.bh@SD",
+    "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Iqraa Quran",
+    "language": "Arabic",
+    "id": "IqraaQuran.sa@SD",
+    "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Iqraa Arabic",
+    "language": "Arabic",
+    "id": "IqraaArabic.sa@SD",
+    "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv3/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Iqraa Africa & Europe",
+    "language": "Arabic",
+    "id": "IqraaAfricaEurope.sa@SD",
+    "url": "https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Huda TV",
+    "language": "Arabic",
+    "id": "HudaTV.eg@SD",
+    "url": "https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Islam Channel",
+    "language": "Other",
+    "id": "IslamChannel.uk@SD",
+    "url": "https://live.islamchannel.tv/live11/islamtv_english/bitrate1.isml/live.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Makkah TV",
+    "language": "Arabic",
+    "id": "MakkahTV.sa@SD",
+    "url": "https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Holy Quran Radio",
+    "language": "Arabic",
+    "id": "HolyQuranRadio.sa@SD",
+    "url": "https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Sharjah Radio Quran",
+    "language": "Arabic",
+    "id": "SharjahRadioQuran.ae@SD",
+    "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Alquran",
+    "language": "Other",
+    "id": "Alquran.iq@SD",
+    "url": "https://ktvlive.online/stream/hls/ch1.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Peace TV English",
+    "language": "Arabic",
+    "id": "PeaceTVEnglish.ae@SD",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "Quran TV",
+    "language": "Other",
+    "id": "QuranTV.ir@SD",
+    "url": "https://ncdn.telewebion.ir/quran/live/playlist.m3u8"
+  },
+  {
+    "group": "Quran & Education",
+    "name": "The Islamic Network",
+    "language": "Other",
+    "id": "TheIslamicNetwork.tt@SD",
+    "url": "https://video1.getstreamhosting.com:1936/8322/8322/playlist.m3u8"
+  }
+]
