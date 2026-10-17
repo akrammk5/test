@@ -1,0 +1,57 @@
+name: Build SmartOne Master EPG
+on:
+  push:
+    paths:
+      - ".github/workflows/build-master-epg.yml"
+      - "iptv/build_master_epg.py"
+      - "iptv/ALL_TV_ONE_PLAYLIST_CLEAN.m3u"
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: master-epg
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Build compact guide from real program listings
+        shell: bash
+        run: |
+          python3 -u iptv/build_master_epg.py
+      - name: Validate XML and match channel IDs
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import gzip,xml.etree.ElementTree as ET,re,pathlib
+          p=pathlib.Path("iptv/ALL_TV_HD_EPG.xml")
+          x=ET.parse(p)
+          guide_ids={c.get("id") for c in x.findall(".//channel")}
+          line=pathlib.Path("iptv/ALL_TV_ONE_PLAYLIST_CLEAN.m3u").read_text()
+          playlist_ids=set(re.findall(r'tvg-id="([^"]+)"',line))
+          assert len(guide_ids)==len(playlist_ids)==155,(len(guide_ids),len(playlist_ids))
+          assert guide_ids==playlist_ids
+          n=len(x.findall(".//programme"))
+          assert n>=50,n
+          with gzip.open("iptv/ALL_TV_HD_EPG.xml.gz","rb") as f:
+              assert f.read()==p.read_bytes()
+          print(f"EPG_VALID channels={len(guide_ids)} programmes={n} xml_bytes={p.stat().st_size}")
+          PY
+      - name: Commit daily XMLTV files
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add iptv/ALL_TV_HD_EPG.xml iptv/ALL_TV_HD_EPG.xml.gz iptv/ALL_TV_HD_EPG_STATUS.json
+          if git diff --cached --quiet; then
+            echo "No guide changes to publish"
+          else
+            git commit -m "Refresh real SmartOne XMLTV schedule [skip ci]"
+            git push
+          fi
