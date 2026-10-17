@@ -1,0 +1,91 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Al Jazeera Arabic" tvg-id="" group-title="01 Arabic News",Al Jazeera Arabic
+https://live-hls-web-aja.getaj.net/AJA/index.m3u8
+#EXTINF:-1 tvg-name="Al Jazeera English" tvg-id="443134" group-title="01 Arabic News",Al Jazeera English
+https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-name="Al Arabiya" tvg-id="55875" group-title="01 Arabic News",Al Arabiya
+https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Al Hadath" tvg-id="" group-title="01 Arabic News",Al Hadath
+https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Sky News Arabia" tvg-id="55795" group-title="01 Arabic News",Sky News Arabia
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+#EXTINF:-1 tvg-name="Asharq News" tvg-id="443224" group-title="01 Arabic News",Asharq News
+https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-name="Qatar TV" tvg-id="" group-title="01 Arabic News",Qatar TV
+https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
+#EXTINF:-1 tvg-name="MBC 1" tvg-id="" group-title="01 Arabic News",MBC 1
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
+#EXTINF:-1 tvg-name="MBC 4" tvg-id="" group-title="01 Arabic News",MBC 4
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
+#EXTINF:-1 tvg-name="France 24 Arabic" tvg-id="7428" group-title="01 Arabic News",France 24 Arabic
+https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="DW Arabic" tvg-id="" group-title="01 Arabic News",DW Arabic
+https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
+#EXTINF:-1 tvg-name="France 24 French" tvg-id="6024" group-title="02 European",France 24 French
+https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="France 24 English" tvg-id="5842" group-title="02 European",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:-1 tvg-name="Euronews French" tvg-id="" group-title="02 European",Euronews French
+https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
+#EXTINF:-1 tvg-name="DW English" tvg-id="2756" group-title="02 European",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+#EXTINF:-1 tvg-name="El Heddaf TV" tvg-id="" group-title="03 Free Sports",El Heddaf TV
+https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
+#EXTINF:-1 tvg-name="beIN SPORTS XTRA (free channel)" tvg-id="" group-title="03 Free Sports",beIN SPORTS XTRA (free channel)
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="FIFA+ English" tvg-id="" group-title="03 Free Sports",FIFA+ English
+https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-name="CBS Sports Golazo" tvg-id="562308" group-title="03 Free Sports",CBS Sports Golazo
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 tvg-name="Sportitalia" tvg-id="485713" group-title="03 Free Sports",Sportitalia
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-name="A Spor" tvg-id="" group-title="03 Free Sports",A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 tvg-name="Real Madrid TV" tvg-id="55953" group-title="03 Free Sports",Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
+#EXTINF:-1 tvg-name="Asharq Documentary" tvg-id="" group-title="04 Documentaries",Asharq Documentary
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-name="Documentary+ International" tvg-id="" group-title="04 Documentaries",Documentary+ International
+https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-name="Terra Mater WILD English" tvg-id="" group-title="04 Documentaries",Terra Mater WILD English
+https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8
+#EXTINF:-1 tvg-name="Autentic History" tvg-id="" group-title="04 Documentaries",Autentic History
+https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
+#EXTINF:-1 tvg-name="Movies Action" tvg-id="" group-title="05 Movies",Movies Action
+https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony One Hits Action (FR)" tvg-id="" group-title="05 Movies",Sony One Hits Action (FR)
+https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
+#EXTINF:-1 tvg-name="Noovo Cinema" tvg-id="" group-title="05 Movies",Noovo Cinema
+https://dk4ogs46bjxcw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr1ct045l70mz/Noovo_Cinema.m3u8
+#EXTINF:-1 tvg-name="GREAT! movies" tvg-id="" group-title="05 Movies",GREAT! movies
+https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
+#EXTINF:-1 tvg-name="BFM TV" tvg-id="" group-title="02 European",BFM TV
+https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
+#EXTINF:-1 tvg-name="TV5MONDE Europe" tvg-id="" group-title="02 European",TV5MONDE Europe
+https://ert-ucdn.broadpeak-aas.com/bpk-tv/TV5/default/index.m3u8
+#EXTINF:-1 tvg-name="Le Figaro TV" tvg-id="" group-title="02 European",Le Figaro TV
+https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
+#EXTINF:-1 tvg-name="PBS Kids public broadcast" tvg-id="PBSKids.us@SD" group-title="06 Kids & Family",PBS Kids public broadcast
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 tvg-name="Baby Shark TV" tvg-id="BabySharkTV.us@SD" group-title="06 Kids & Family",Baby Shark TV
+https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Moonbug Kids" tvg-id="MoonbugKids.uk@SD" group-title="06 Kids & Family",Moonbug Kids
+https://moonbug-rokuus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Lego Channel" tvg-id="LegoChannel.us@SD" group-title="06 Kids & Family",Lego Channel
+https://dltiqboxjw21d.cloudfront.net/index.m3u8
+#EXTINF:-1 tvg-name="Gusto TV" tvg-id="GustoTV.ca@SD" group-title="07 Cooking",Gusto TV
+https://e75fc053c0d2406fb74cdd71d77e1a7f.mediatailor.us-east-1.amazonaws.com/v1/master/f4e8c53a8367a5b58e20ce054ea3ce25a3e904d3/RakutenTV-eu_GustoTV/playlist.m3u8
+#EXTINF:-1 tvg-name="Pluto TV Cuisine" tvg-id="PlutoTVCuisine.de@FR" group-title="07 Cooking",Pluto TV Cuisine
+https://jmp2.uk/plu-5f8ed48146ba9e00078424b6.m3u8
+#EXTINF:-1 tvg-name="Motorvision" tvg-id="Motorvision.de@SD" group-title="08 Cars & Tech",Motorvision
+https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8
+#EXTINF:-1 tvg-name="Pluto TV Cars" tvg-id="PlutoTVCars.us@SD" group-title="08 Cars & Tech",Pluto TV Cars
+https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8
+#EXTINF:-1 tvg-name="Aghani Aghani TV" tvg-id="AghaniAghaniTV.lb@SD" group-title="09 Music",Aghani Aghani TV
+https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
+#EXTINF:-1 tvg-name="Deluxe Music" tvg-id="DeluxeMusic.de@SD" group-title="09 Music",Deluxe Music
+https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
+#EXTINF:-1 tvg-name="Qatar TV The Holy Quran" tvg-id="QatarTVTheHolyQuran.qa@HD" group-title="10 Quran",Qatar TV The Holy Quran
+https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
+#EXTINF:-1 tvg-name="Iqraa Quran" tvg-id="IqraaQuran.sa@SD" group-title="10 Quran",Iqraa Quran
+https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
