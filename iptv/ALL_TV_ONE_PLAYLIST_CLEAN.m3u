@@ -7,59 +7,59 @@ https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
 http://mkstream.servehttp.com:1940/AmouYazid/ay1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV2.dz@SD" tvg-name="TV2 Algeria" tvg-country="DZ" group-title="01 Algeria",TV2 Algeria
 http://185.9.2.18/chid_347/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="StoryChannel TV" tvg-country="DZ" group-title="01 Algeria",StoryChannel TV
+#EXTINF:-1 tvg-id="worldtv.5b5d4b9b" tvg-name="StoryChannel TV" tvg-country="DZ" group-title="01 Algeria",StoryChannel TV
 https://136044159.r.cdnsun.net/storychannel.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Arabic" tvg-country="QA" group-title="02 Arabic TV",Al Jazeera Arabic
+#EXTINF:-1 tvg-id="worldtv.b479ebfe" tvg-name="Al Jazeera Arabic" tvg-country="QA" group-title="02 Arabic TV",Al Jazeera Arabic
 https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera Mubasher" tvg-country="QA" group-title="02 Arabic TV",Al Jazeera Mubasher
+#EXTINF:-1 tvg-id="worldtv.58ce87c5" tvg-name="Al Jazeera Mubasher" tvg-country="QA" group-title="02 Arabic TV",Al Jazeera Mubasher
 https://live-hls-web-ajm.getaj.net/AJM/index.m3u8
 #EXTINF:-1 tvg-id="443134" tvg-name="Al Jazeera English" tvg-country="QA" group-title="02 Arabic TV",Al Jazeera English
 https://live-hls-apps-aje-v3-fa.getaj.net/AJE/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Al Araby TV" tvg-country="QA" group-title="02 Arabic TV",Al Araby TV
+#EXTINF:-1 tvg-id="worldtv.258ccaa0" tvg-name="Al Araby TV" tvg-country="QA" group-title="02 Arabic TV",Al Araby TV
 https://live.kwikmotion.com/alaraby1live/alaraby_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Al Araby TV 2" tvg-country="QA" group-title="02 Arabic TV",Al Araby TV 2
+#EXTINF:-1 tvg-id="worldtv.bf2c3b5a" tvg-name="Al Araby TV 2" tvg-country="QA" group-title="02 Arabic TV",Al Araby TV 2
 https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="55875" tvg-name="Al Arabiya" tvg-country="AE" group-title="02 Arabic TV",Al Arabiya
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Al Hadath" tvg-country="SA" group-title="02 Arabic TV",Al Hadath
+#EXTINF:-1 tvg-id="worldtv.86556bfb" tvg-name="Al Hadath" tvg-country="SA" group-title="02 Arabic TV",Al Hadath
 https://av.alarabiya.net/alarabiapublish/alhadath.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="55795" tvg-name="Sky News Arabia" tvg-country="AE" group-title="02 Arabic TV",Sky News Arabia
 https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
 #EXTINF:-1 tvg-id="443224" tvg-name="Asharq News" tvg-country="SA" group-title="02 Arabic TV",Asharq News
 https://live-news.asharq.com/asharq.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Asharq Documentary" tvg-country="SA" group-title="02 Arabic TV",Asharq Documentary
+#EXTINF:-1 tvg-id="worldtv.278cb43c" tvg-name="Asharq Documentary" tvg-country="SA" group-title="02 Arabic TV",Asharq Documentary
 https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Asharq Discovery" tvg-country="SA" group-title="02 Arabic TV",Asharq Discovery
+#EXTINF:-1 tvg-id="worldtv.fa8d6279" tvg-name="Asharq Discovery" tvg-country="SA" group-title="02 Arabic TV",Asharq Discovery
 https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CNBC Arabia" tvg-country="AE" group-title="02 Arabic TV",CNBC Arabia
+#EXTINF:-1 tvg-id="worldtv.30643be4" tvg-name="CNBC Arabia" tvg-country="AE" group-title="02 Arabic TV",CNBC Arabia
 https://cnbc-live.akamaized.net/cnbc/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Qatar TV" tvg-country="QA" group-title="02 Arabic TV",Qatar TV
+#EXTINF:-1 tvg-id="worldtv.dd7cd2e8" tvg-name="Qatar TV" tvg-country="QA" group-title="02 Arabic TV",Qatar TV
 https://qatartv.akamaized.net/hls/live/20000609/qtv1/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sharjah TV" tvg-country="AE" group-title="02 Arabic TV",Sharjah TV
+#EXTINF:-1 tvg-id="worldtv.7c0b2fe9" tvg-name="Sharjah TV" tvg-country="AE" group-title="02 Arabic TV",Sharjah TV
 https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Saudi TV" tvg-country="SA" group-title="02 Arabic TV",Saudi TV
+#EXTINF:-1 tvg-id="worldtv.18f3bd78" tvg-name="Saudi TV" tvg-country="SA" group-title="02 Arabic TV",Saudi TV
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SBC" tvg-country="SA" group-title="02 Arabic TV",SBC
+#EXTINF:-1 tvg-id="worldtv.3d33c023" tvg-name="SBC" tvg-country="SA" group-title="02 Arabic TV",SBC
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MBC 1" tvg-country="AE" group-title="02 Arabic TV",MBC 1
+#EXTINF:-1 tvg-id="worldtv.187d91d3" tvg-name="MBC 1" tvg-country="AE" group-title="02 Arabic TV",MBC 1
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MBC 4" tvg-country="AE" group-title="02 Arabic TV",MBC 4
+#EXTINF:-1 tvg-id="worldtv.5cdb5258" tvg-name="MBC 4" tvg-country="AE" group-title="02 Arabic TV",MBC 4
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="MBC Drama" tvg-country="AE" group-title="02 Arabic TV",MBC Drama
+#EXTINF:-1 tvg-id="worldtv.d1af9b92" tvg-name="MBC Drama" tvg-country="AE" group-title="02 Arabic TV",MBC Drama
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
 #EXTINF:-1 tvg-id="7428" tvg-name="France 24 Arabic" tvg-country="FR" group-title="02 Arabic TV",France 24 Arabic
 https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="DW Arabic" tvg-country="DE" group-title="02 Arabic TV",DW Arabic
+#EXTINF:-1 tvg-id="worldtv.868468b9" tvg-name="DW Arabic" tvg-country="DE" group-title="02 Arabic TV",DW Arabic
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Al Ghad TV" tvg-country="EG" group-title="02 Arabic TV",Al Ghad TV
+#EXTINF:-1 tvg-id="worldtv.71dae89a" tvg-name="Al Ghad TV" tvg-country="EG" group-title="02 Arabic TV",Al Ghad TV
 https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
 #EXTINF:-1 tvg-id="6024" tvg-name="France 24 French" tvg-country="FR" group-title="03 European TV",France 24 French
 https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="5842" tvg-name="France 24 English" tvg-country="FR" group-title="03 European TV",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Euronews French" tvg-country="FR" group-title="03 European TV",Euronews French
+#EXTINF:-1 tvg-id="worldtv.c75c7630" tvg-name="Euronews French" tvg-country="FR" group-title="03 European TV",Euronews French
 https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Euronews English" tvg-country="FR" group-title="03 European TV",Euronews English
+#EXTINF:-1 tvg-id="worldtv.3de35f31" tvg-name="Euronews English" tvg-country="FR" group-title="03 European TV",Euronews English
 https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
 #EXTINF:-1 tvg-id="2756" tvg-name="DW English" tvg-country="DE" group-title="03 European TV",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
@@ -67,119 +67,119 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
 #EXTINF:-1 tvg-id="76674" tvg-name="Das Erste (ARD)" tvg-country="DE" group-title="03 European TV",Das Erste (ARD)
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Canal 24 Horas (RTVE)" tvg-country="ES" group-title="03 European TV",Canal 24 Horas (RTVE)
+#EXTINF:-1 tvg-id="worldtv.ef2479be" tvg-name="Canal 24 Horas (RTVE)" tvg-country="ES" group-title="03 European TV",Canal 24 Horas (RTVE)
 https://ztnr.rtve.es/ztnr/1694255.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TV5MONDE Chefs" tvg-country="FR" group-title="03 European TV",TV5MONDE Chefs
+#EXTINF:-1 tvg-id="worldtv.9d9e0e34" tvg-name="TV5MONDE Chefs" tvg-country="FR" group-title="03 European TV",TV5MONDE Chefs
 https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Africanews French" tvg-country="FR" group-title="03 European TV",Africanews French
+#EXTINF:-1 tvg-id="worldtv.480a433b" tvg-name="Africanews French" tvg-country="FR" group-title="03 European TV",Africanews French
 https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Euronews Poland" tvg-country="PL" group-title="03 European TV",Euronews Poland
+#EXTINF:-1 tvg-id="worldtv.568d4210" tvg-name="Euronews Poland" tvg-country="PL" group-title="03 European TV",Euronews Poland
 https://cdn-euronews.akamaized.net/live/eds/euronews-pl/26382/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Africa 24 Sport" tvg-country="FR" group-title="04 Free Sports",Africa 24 Sport
+#EXTINF:-1 tvg-id="worldtv.d70332cd" tvg-name="Africa 24 Sport" tvg-country="FR" group-title="04 Free Sports",Africa 24 Sport
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="beIN SPORTS XTRA (free channel)" tvg-country="US" group-title="04 Free Sports",beIN SPORTS XTRA (free channel)
+#EXTINF:-1 tvg-id="worldtv.b5109f12" tvg-name="beIN SPORTS XTRA (free channel)" tvg-country="US" group-title="04 Free Sports",beIN SPORTS XTRA (free channel)
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="FIFA+ English" tvg-country="UK" group-title="04 Free Sports",FIFA+ English
+#EXTINF:-1 tvg-id="worldtv.c00ad1e9" tvg-name="FIFA+ English" tvg-country="UK" group-title="04 Free Sports",FIFA+ English
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="FIFA+ French" tvg-country="UK" group-title="04 Free Sports",FIFA+ French
+#EXTINF:-1 tvg-id="worldtv.aca48f59" tvg-name="FIFA+ French" tvg-country="UK" group-title="04 Free Sports",FIFA+ French
 https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="FIFA+ Women" tvg-country="UK" group-title="04 Free Sports",FIFA+ Women
+#EXTINF:-1 tvg-id="worldtv.bdfbb69b" tvg-name="FIFA+ Women" tvg-country="UK" group-title="04 Free Sports",FIFA+ Women
 https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="562308" tvg-name="CBS Sports Golazo" tvg-country="US" group-title="04 Free Sports",CBS Sports Golazo
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 tvg-id="485735" tvg-name="NBC Sports NOW" tvg-country="US" group-title="04 Free Sports",NBC Sports NOW
 https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
-#EXTINF:-1 tvg-id="" tvg-name="Tennis Channel (FAST)" tvg-country="US" group-title="04 Free Sports",Tennis Channel (FAST)
+#EXTINF:-1 tvg-id="worldtv.8172e08c" tvg-name="Tennis Channel (FAST)" tvg-country="US" group-title="04 Free Sports",Tennis Channel (FAST)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
 #EXTINF:-1 tvg-id="485713" tvg-name="Sportitalia" tvg-country="IT" group-title="04 Free Sports",Sportitalia
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="ACI Sport TV" tvg-country="IT" group-title="04 Free Sports",ACI Sport TV
+#EXTINF:-1 tvg-id="worldtv.8b7eb961" tvg-name="ACI Sport TV" tvg-country="IT" group-title="04 Free Sports",ACI Sport TV
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="A Spor" tvg-country="TR" group-title="04 Free Sports",A Spor
+#EXTINF:-1 tvg-id="worldtv.922bc9d6" tvg-name="A Spor" tvg-country="TR" group-title="04 Free Sports",A Spor
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="HT Spor" tvg-country="TR" group-title="04 Free Sports",HT Spor
+#EXTINF:-1 tvg-id="worldtv.53e08704" tvg-name="HT Spor" tvg-country="TR" group-title="04 Free Sports",HT Spor
 https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
-#EXTINF:-1 tvg-id="" tvg-name="Bahrain Sports 1" tvg-country="BH" group-title="04 Free Sports",Bahrain Sports 1
+#EXTINF:-1 tvg-id="worldtv.a8e9e302" tvg-name="Bahrain Sports 1" tvg-country="BH" group-title="04 Free Sports",Bahrain Sports 1
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Bahrain Sports 2" tvg-country="BH" group-title="04 Free Sports",Bahrain Sports 2
+#EXTINF:-1 tvg-id="worldtv.fbbe88e8" tvg-name="Bahrain Sports 2" tvg-country="BH" group-title="04 Free Sports",Bahrain Sports 2
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
 #EXTINF:-1 tvg-id="76765" tvg-name="More Than Sports TV" tvg-country="DE" group-title="04 Free Sports",More Than Sports TV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 #EXTINF:-1 tvg-id="55953" tvg-name="Real Madrid TV" tvg-country="ES" group-title="04 Free Sports",Real Madrid TV
 https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="talkSPORT TV" tvg-country="UK" group-title="04 Free Sports",talkSPORT TV
+#EXTINF:-1 tvg-id="worldtv.6c58c9fd" tvg-name="talkSPORT TV" tvg-country="UK" group-title="04 Free Sports",talkSPORT TV
 https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BFM TV" tvg-language="fr" group-title="05 French TV",BFM TV
+#EXTINF:-1 tvg-id="worldtv.cea6ee62" tvg-name="BFM TV" tvg-language="fr" group-title="05 French TV",BFM TV
 https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BFM 2" tvg-language="fr" group-title="05 French TV",BFM 2
+#EXTINF:-1 tvg-id="worldtv.d5720a2a" tvg-name="BFM 2" tvg-language="fr" group-title="05 French TV",BFM 2
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BFM Business" tvg-language="fr" group-title="05 French TV",BFM Business
+#EXTINF:-1 tvg-id="worldtv.44574742" tvg-name="BFM Business" tvg-language="fr" group-title="05 French TV",BFM Business
 https://live-cdn-stream-euw1.bfmb.bct.nextradiotv.com/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="BFM Lyon" tvg-language="fr" group-title="05 French TV",BFM Lyon
+#EXTINF:-1 tvg-id="worldtv.bf0d4977" tvg-name="BFM Lyon" tvg-language="fr" group-title="05 French TV",BFM Lyon
 https://live-cdn-bfmtvlyo-euw1.bfmtv.bct.nextradiotv.com/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="20 Minutes TV" tvg-language="fr" group-title="05 French TV",20 Minutes TV
+#EXTINF:-1 tvg-id="worldtv.54404cb4" tvg-name="20 Minutes TV" tvg-language="fr" group-title="05 French TV",20 Minutes TV
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Africa 24 français" tvg-language="fr" group-title="05 French TV",Africa 24 français
+#EXTINF:-1 tvg-id="worldtv.3f9f46ba" tvg-name="Africa 24 français" tvg-language="fr" group-title="05 French TV",Africa 24 français
 https://africa24.vedge.infomaniak.com/livecast/ik:africa24/manifest.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TV5MONDE Europe" tvg-language="fr" group-title="05 French TV",TV5MONDE Europe
+#EXTINF:-1 tvg-id="worldtv.679ec2bb" tvg-name="TV5MONDE Europe" tvg-language="fr" group-title="05 French TV",TV5MONDE Europe
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/TV5/default/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Le Figaro TV" tvg-language="fr" group-title="05 French TV",Le Figaro TV
+#EXTINF:-1 tvg-id="worldtv.d79b43b1" tvg-name="Le Figaro TV" tvg-language="fr" group-title="05 French TV",Le Figaro TV
 https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Canal Alpha Jura" tvg-language="fr" group-title="05 French TV",Canal Alpha Jura
+#EXTINF:-1 tvg-id="worldtv.0c1abaad" tvg-name="Canal Alpha Jura" tvg-language="fr" group-title="05 French TV",Canal Alpha Jura
 https://canalalphaju.vedge.infomaniak.com/livecast/ik:canalalphaju/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Canal Alpha Neuchâtel" tvg-language="fr" group-title="05 French TV",Canal Alpha Neuchâtel
+#EXTINF:-1 tvg-id="worldtv.0cccb4a9" tvg-name="Canal Alpha Neuchâtel" tvg-language="fr" group-title="05 French TV",Canal Alpha Neuchâtel
 https://canalalpha.vedge.infomaniak.com/livecast/ik:canalalpha/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Francophonie24" tvg-language="fr" group-title="05 French TV",Francophonie24
+#EXTINF:-1 tvg-id="worldtv.38a9292c" tvg-name="Francophonie24" tvg-language="fr" group-title="05 French TV",Francophonie24
 https://5421175365ea3.streamlock.net/live/smil:switch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Documentary+ International" tvg-language="en" group-title="06 Documentaries",Documentary+ International
+#EXTINF:-1 tvg-id="worldtv.59740e9e" tvg-name="Documentary+ International" tvg-language="en" group-title="06 Documentaries",Documentary+ International
 https://1d153317c8db4250b3789601274e2402.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-887-DOCUMENTARYINTERNATIONAL-DOCUMENTARYPLUS/mt/documentaryplus/887/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Documentary+" tvg-language="en" group-title="06 Documentaries",Documentary+
+#EXTINF:-1 tvg-id="worldtv.7543380c" tvg-name="Documentary+" tvg-language="en" group-title="06 Documentaries",Documentary+
 https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Terra Mater WILD English" tvg-language="en" group-title="06 Documentaries",Terra Mater WILD English
+#EXTINF:-1 tvg-id="worldtv.412aa94b" tvg-name="Terra Mater WILD English" tvg-language="en" group-title="06 Documentaries",Terra Mater WILD English
 https://amg01775-amg01775c1-amgplt0343.playout.now3.amagi.tv/playlist/amg01775-amg01775c1-amgplt0343/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Adventure Earth" tvg-language="en" group-title="06 Documentaries",Adventure Earth
+#EXTINF:-1 tvg-id="worldtv.c1094a32" tvg-name="Adventure Earth" tvg-language="en" group-title="06 Documentaries",Adventure Earth
 https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Autentic History" tvg-language="en" group-title="06 Documentaries",Autentic History
+#EXTINF:-1 tvg-id="worldtv.285f57ea" tvg-name="Autentic History" tvg-language="en" group-title="06 Documentaries",Autentic History
 https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticHistory/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Autentic Travel" tvg-language="en" group-title="06 Documentaries",Autentic Travel
+#EXTINF:-1 tvg-id="worldtv.c81935ab" tvg-name="Autentic Travel" tvg-language="en" group-title="06 Documentaries",Autentic Travel
 https://cb0c87cc605942ff9766a4e6744bbadc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AutenticTravel/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Space Live" tvg-language="en" group-title="06 Documentaries",Space Live
+#EXTINF:-1 tvg-id="worldtv.099bef9c" tvg-name="Space Live" tvg-language="en" group-title="06 Documentaries",Space Live
 https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Canal Savoir (Québec)" tvg-language="fr" group-title="06 Documentaries",Canal Savoir (Québec)
+#EXTINF:-1 tvg-id="worldtv.219b3d4d" tvg-name="Canal Savoir (Québec)" tvg-language="fr" group-title="06 Documentaries",Canal Savoir (Québec)
 https://hls.savoir.media/live/stream.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Classic Arts Showcase" tvg-language="en" group-title="06 Documentaries",Classic Arts Showcase
+#EXTINF:-1 tvg-id="worldtv.f2575d56" tvg-name="Classic Arts Showcase" tvg-language="en" group-title="06 Documentaries",Classic Arts Showcase
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TVS Travel Network" tvg-language="en" group-title="06 Documentaries",TVS Travel Network
+#EXTINF:-1 tvg-id="worldtv.720773a3" tvg-name="TVS Travel Network" tvg-language="en" group-title="06 Documentaries",TVS Travel Network
 https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Better Life Nature" tvg-language="en" group-title="06 Documentaries",Better Life Nature
+#EXTINF:-1 tvg-id="worldtv.f2381a15" tvg-name="Better Life Nature" tvg-language="en" group-title="06 Documentaries",Better Life Nature
 https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Movies Action" tvg-language="ar" group-title="07 Movies",Movies Action
+#EXTINF:-1 tvg-id="worldtv.bf5c4098" tvg-name="Movies Action" tvg-language="ar" group-title="07 Movies",Movies Action
 https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Movies Thriller" tvg-language="ar" group-title="07 Movies",Movies Thriller
+#EXTINF:-1 tvg-id="worldtv.3f0a7bad" tvg-name="Movies Thriller" tvg-language="ar" group-title="07 Movies",Movies Thriller
 https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sony One Hits Action (FR)" tvg-language="fr" group-title="07 Movies",Sony One Hits Action (FR)
+#EXTINF:-1 tvg-id="worldtv.e29fe5d7" tvg-name="Sony One Hits Action (FR)" tvg-language="fr" group-title="07 Movies",Sony One Hits Action (FR)
 https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sony One Hits Comedie (FR)" tvg-language="fr" group-title="07 Movies",Sony One Hits Comedie (FR)
+#EXTINF:-1 tvg-id="worldtv.54bf9d49" tvg-name="Sony One Hits Comedie (FR)" tvg-language="fr" group-title="07 Movies",Sony One Hits Comedie (FR)
 https://7aa9671895264ec9a384dfed1b992171.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-818-FR-SONYONEHITSCOMDIE-LG_FR/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Noovo Cinema" tvg-language="fr" group-title="07 Movies",Noovo Cinema
+#EXTINF:-1 tvg-id="worldtv.57e3ef65" tvg-name="Noovo Cinema" tvg-language="fr" group-title="07 Movies",Noovo Cinema
 https://dk4ogs46bjxcw.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-xr1ct045l70mz/Noovo_Cinema.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="GREAT! movies" tvg-language="en" group-title="07 Movies",GREAT! movies
+#EXTINF:-1 tvg-id="worldtv.a2af7583" tvg-name="GREAT! movies" tvg-language="en" group-title="07 Movies",GREAT! movies
 https://amg01753-narrativeuk-amg01753c3-lg-gb-1833.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatmovies-lggb/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="GREAT! romance" tvg-language="en" group-title="07 Movies",GREAT! romance
+#EXTINF:-1 tvg-id="worldtv.7daf36ae" tvg-name="GREAT! romance" tvg-language="en" group-title="07 Movies",GREAT! romance
 https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlist/amg01753-narrativeuk-greatchristmas-lggb/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Hallmark Movies & More" tvg-language="en" group-title="07 Movies",Hallmark Movies & More
+#EXTINF:-1 tvg-id="worldtv.707711ba" tvg-name="Hallmark Movies & More" tvg-language="en" group-title="07 Movies",Hallmark Movies & More
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
-#EXTINF:-1 tvg-id="" tvg-name="CinePride" tvg-language="en" group-title="07 Movies",CinePride
+#EXTINF:-1 tvg-id="worldtv.0b761e80" tvg-name="CinePride" tvg-language="en" group-title="07 Movies",CinePride
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2223
-#EXTINF:-1 tvg-id="" tvg-name="Whiplash Cinema" tvg-language="en" group-title="07 Movies",Whiplash Cinema
+#EXTINF:-1 tvg-id="worldtv.67a123d3" tvg-name="Whiplash Cinema" tvg-language="en" group-title="07 Movies",Whiplash Cinema
 https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Movies! KPVM-LD" tvg-language="en" group-title="07 Movies",Movies! KPVM-LD
+#EXTINF:-1 tvg-id="worldtv.59c8a545" tvg-name="Movies! KPVM-LD" tvg-language="en" group-title="07 Movies",Movies! KPVM-LD
 https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TVS Classic Movies" tvg-language="en" group-title="07 Movies",TVS Classic Movies
+#EXTINF:-1 tvg-id="worldtv.02abdff3" tvg-name="TVS Classic Movies" tvg-language="en" group-title="07 Movies",TVS Classic Movies
 https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TVS Nostalgia Movies" tvg-language="en" group-title="07 Movies",TVS Nostalgia Movies
+#EXTINF:-1 tvg-id="worldtv.42605b93" tvg-name="TVS Nostalgia Movies" tvg-language="en" group-title="07 Movies",TVS Nostalgia Movies
 https://rpn.bozztv.com/gusa/gusa-tvsNostalgiaMovies/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TVS Western Movie" tvg-language="en" group-title="07 Movies",TVS Western Movie
+#EXTINF:-1 tvg-id="worldtv.35eb4f78" tvg-name="TVS Western Movie" tvg-language="en" group-title="07 Movies",TVS Western Movie
 https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
 #EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="PBS Kids public broadcast" group-title="08 Kids & Family",PBS Kids public broadcast
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
