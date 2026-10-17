@@ -89,7 +89,7 @@ def parse_time(value):
         return None
 
 def download_feed():
-    request = urllib.request.Request(SOURCE, headers={"User-Agent": "World-TV-HD-EPG/1.0"})
+    request = urllib.request.Request(SOURCE, headers={"User-Agent": "Mozilla/5.0 (compatible; World-TV-HD-EPG/1.0)"})
     with urllib.request.urlopen(request, timeout=100) as response:
         if response.status != 200:
             raise RuntimeError(f"EPG source HTTP {response.status}")
