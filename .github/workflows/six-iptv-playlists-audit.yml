@@ -1,0 +1,42 @@
+name: Six IPTV Playlists Stream Audit
+on:
+  push:
+    paths:
+      - ".github/workflows/six-iptv-playlists-audit.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install FFprobe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Check real HLS video tracks
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import concurrent.futures,subprocess,json,urllib.parse
+          with open("iptv/new_six_category_candidates_2026.json",encoding="utf-8") as f:channels=json.load(f)
+          def test(item):
+           o={"group":item["group"],"id":item["id"],"name":item["name"]}
+           u=item["url"]
+           try:
+            v=subprocess.run(["ffprobe","-v","error","-user_agent","Mozilla/5.0 (compatible; VLC/3.0)","-rw_timeout","12000000","-analyzeduration","2500000","-probesize","700000","-show_entries","stream=codec_type,codec_name,width,height","-of","json",u],capture_output=True,text=True,timeout=22)
+            j=json.loads(v.stdout or "{}")
+            tracks=[t for t in j.get("streams",[]) if t.get("codec_type")=="video"]
+            if tracks:
+             top=max(tracks,key=lambda t:t.get("width",0)*t.get("height",0))
+             o.update(status="VIDEO_OK",codec=top.get("codec_name"),width=top.get("width",0),height=top.get("height",0))
+            else:o.update(status="NO_VIDEO",error=v.stderr[:155])
+           except Exception as e:o.update(status="ERROR",error=str(e)[:155])
+           return o
+          with concurrent.futures.ThreadPoolExecutor(max_workers=16) as pool:
+           for r in pool.map(test,channels):
+            print("SIX_CHECK "+json.dumps(r,ensure_ascii=False),flush=True)
+          
+          PY
