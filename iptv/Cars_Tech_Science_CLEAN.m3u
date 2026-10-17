@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="30AWeLoveCars.us@SD" tvg-name="30A We Love Cars" group-title="01 Cars & Motors",30A We Love Cars
+https://30a-tv.com/feeds/vidaa/cars.m3u8
+#EXTINF:-1 tvg-id="CanalMotor.no@SD" tvg-name="Canal Motor" group-title="01 Cars & Motors",Canal Motor
+https://digicom.hls.iptvdc.com/canalmotor/index.m3u8
+#EXTINF:-1 tvg-id="Motorvision.de@SD" tvg-name="Motorvision" group-title="01 Cars & Motors",Motorvision
+https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8
+#EXTINF:-1 tvg-id="PlutoTVCars.us@SD" tvg-name="Pluto TV Cars" group-title="01 Cars & Motors",Pluto TV Cars
+https://jmp2.uk/plu-5812b3a4249444e05d09cc46.m3u8
+#EXTINF:-1 tvg-id="PlutoTVMotor.de@ES" tvg-name="Pluto TV Motor" group-title="01 Cars & Motors",Pluto TV Motor
+https://jmp2.uk/plu-6080345ebb49b90007ce0baf.m3u8
+#EXTINF:-1 tvg-id="CityEdenAutoGid.ru@HD" tvg-name="City Eden AutoGid" group-title="01 Cars & Motors",City Eden AutoGid
+https://cityeden.catcast.tv/content/47515/index.m3u8
+#EXTINF:-1 tvg-id="TheDesignNetwork.us@SD" tvg-name="The Design Network" group-title="02 Technology & Science",The Design Network
+https://amg00441-amg00441c1-rakuten-us-6050.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSTravel.us@SD" tvg-name="PBS Travel" group-title="02 Technology & Science",PBS Travel
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+#EXTINF:-1 tvg-id="BBCTravel.us@Germany" tvg-name="BBC Travel" group-title="02 Technology & Science",BBC Travel
+https://jmp2.uk/plu-60e4519e6873180007d3cddb.m3u8
+#EXTINF:-1 tvg-id="PlutoTVScience.de@DACH" tvg-name="Pluto TV Science" group-title="02 Technology & Science",Pluto TV Science
+https://jmp2.uk/plu-5d767b4889bca2ce7b73ef2e.m3u8
