@@ -1,12 +1,12 @@
 {
   "playlist_channels": 155,
-  "guide_channels_with_real_schedule": 31,
-  "real_programmes": 2202,
-  "xml_bytes": 808439,
-  "gz_bytes": 79308,
+  "guide_channels_with_real_schedule": 30,
+  "real_programmes": 2025,
+  "xml_bytes": 768124,
+  "gz_bytes": 76491,
   "window_utc": [
-    "2026-10-18T05:06:01.576175+00:00",
-    "2026-10-20T08:06:01.576175+00:00"
+    "2026-10-19T05:58:57.486544+00:00",
+    "2026-10-21T08:58:57.486544+00:00"
   ],
   "mapped_channels": [
     "Al Jazeera Arabic",
@@ -32,7 +32,6 @@
     "20 Minutes TV",
     "TV5MONDE Europe",
     "Le Figaro TV",
-    "Movies Action",
     "GREAT! movies",
     "GREAT! romance",
     "Tastemade Travel",
@@ -96,6 +95,7 @@
     "Classic Arts Showcase",
     "TVS Travel Network",
     "Better Life Nature",
+    "Movies Action",
     "Movies Thriller",
     "Sony One Hits Action (FR)",
     "Sony One Hits Comedie (FR)",
