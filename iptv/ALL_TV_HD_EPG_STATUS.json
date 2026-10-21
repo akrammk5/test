@@ -1,12 +1,12 @@
 {
   "playlist_channels": 155,
-  "guide_channels_with_real_schedule": 30,
-  "real_programmes": 2462,
-  "xml_bytes": 831395,
-  "gz_bytes": 72903,
+  "guide_channels_with_real_schedule": 29,
+  "real_programmes": 2222,
+  "xml_bytes": 774221,
+  "gz_bytes": 73548,
   "window_utc": [
-    "2026-10-20T05:37:45.078347+00:00",
-    "2026-10-22T08:37:45.078347+00:00"
+    "2026-10-21T05:39:14.818550+00:00",
+    "2026-10-23T08:39:14.818550+00:00"
   ],
   "mapped_channels": [
     "Al Jazeera Arabic",
@@ -37,8 +37,7 @@
     "Tastemade Travel",
     "Motorvision",
     "Deluxe Music",
-    "B4U Music",
-    "9X Jhakaas"
+    "B4U Music"
   ],
   "not_in_source": [
     "AL24 News",
@@ -152,6 +151,7 @@
     "Movie Music by Stingray",
     "30A Music",
     "Baraza TV Relaxing",
+    "9X Jhakaas",
     "Saudi Quran TV (official global feed)",
     "Qatar TV The Holy Quran",
     "Bahrain Quran",
