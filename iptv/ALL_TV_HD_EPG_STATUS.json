@@ -1,12 +1,12 @@
 {
   "playlist_channels": 155,
-  "guide_channels_with_real_schedule": 29,
-  "real_programmes": 2201,
-  "xml_bytes": 728881,
-  "gz_bytes": 73203,
+  "guide_channels_with_real_schedule": 28,
+  "real_programmes": 1854,
+  "xml_bytes": 615472,
+  "gz_bytes": 56369,
   "window_utc": [
-    "2026-10-23T05:37:02.896155+00:00",
-    "2026-10-25T08:37:02.896155+00:00"
+    "2026-10-24T05:11:42.557770+00:00",
+    "2026-10-26T08:11:42.557770+00:00"
   ],
   "mapped_channels": [
     "Al Jazeera Arabic",
@@ -34,7 +34,6 @@
     "Le Figaro TV",
     "GREAT! movies",
     "GREAT! romance",
-    "Tastemade Travel",
     "Motorvision",
     "Deluxe Music",
     "B4U Music"
@@ -129,6 +128,7 @@
     "Tastemade UK",
     "Pluto TV Cuisine",
     "Jordan Kitchen",
+    "Tastemade Travel",
     "Pluto TV Food GB",
     "30A We Love Cars",
     "Canal Motor",
