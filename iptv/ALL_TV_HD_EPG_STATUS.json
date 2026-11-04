@@ -1,12 +1,12 @@
 {
   "playlist_channels": 155,
-  "guide_channels_with_real_schedule": 31,
-  "real_programmes": 2411,
-  "xml_bytes": 829744,
-  "gz_bytes": 77591,
+  "guide_channels_with_real_schedule": 32,
+  "real_programmes": 2410,
+  "xml_bytes": 784108,
+  "gz_bytes": 71269,
   "window_utc": [
-    "2026-11-03T07:57:49.843129+00:00",
-    "2026-11-05T10:57:49.843129+00:00"
+    "2026-11-04T08:00:35.409009+00:00",
+    "2026-11-06T11:00:35.409009+00:00"
   ],
   "mapped_channels": [
     "Al Jazeera Arabic",
@@ -34,6 +34,7 @@
     "Le Figaro TV",
     "GREAT! movies",
     "GREAT! romance",
+    "Moonbug Kids",
     "America's Test Kitchen",
     "Tastemade Travel",
     "Motorvision",
@@ -111,7 +112,6 @@
     "PBS Kids public broadcast",
     "Baby Shark TV",
     "BabyFirst",
-    "Moonbug Kids",
     "Lego Channel",
     "HappyKids",
     "BeJoy.kids",
