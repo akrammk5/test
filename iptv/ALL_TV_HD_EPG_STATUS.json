@@ -1,12 +1,12 @@
 {
   "playlist_channels": 155,
   "guide_channels_with_real_schedule": 31,
-  "real_programmes": 2493,
-  "xml_bytes": 822878,
-  "gz_bytes": 72596,
+  "real_programmes": 2414,
+  "xml_bytes": 840367,
+  "gz_bytes": 77297,
   "window_utc": [
-    "2026-11-24T10:49:36.547899+00:00",
-    "2026-11-26T13:49:36.547899+00:00"
+    "2026-11-25T10:02:10.911444+00:00",
+    "2026-11-27T13:02:10.911444+00:00"
   ],
   "mapped_channels": [
     "Al Jazeera Arabic",
